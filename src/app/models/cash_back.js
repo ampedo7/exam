@@ -21,6 +21,11 @@ module.exports = (sequelize, DataTypes) => {
       foreignKey: 'rule_set_id',
       onDelete: 'cascade',
     });
+    models.cash_back.belongsTo(models.user, {
+      as: 'user',
+      foreignKey: 'user_id',
+      onDelete: 'cascade',
+    });
   };
   return cash_back;
 };
