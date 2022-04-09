@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "paths": {
+      "@root/*": ["./*"],
+      // "@model/*": ["./src/app/models/*"],
+      // "@mutation/*": ["./src/app/mutations/*"],
+      // "@middleware/*": ["./src/app/middlewares/*"],
+      // "@controller/*": ["./src/app/controllers/*"],
+      // "@validator/*": ["./src/app/validations/*"],
+      // "@helper/*": ["./src/helpers/*"],
+      "@services/*": ["./src/services/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@routes/*": ["./src/routes/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
